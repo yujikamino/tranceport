@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libreplan-1.3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-05 08:07+0200\n"
-"PO-Revision-Date: 2012-10-15 22:54+0900\n"
+"PO-Revision-Date: 2012-10-15 23:02+0900\n"
 "Last-Translator: kamino <mlc22067@yahoo.co.jp>\n"
 "Language-Team: Y.KAMINO\n"
 "MIME-Version: 1.0\n"
@@ -7015,7 +7015,7 @@ msgstr ""
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/WorkReportLabelTypeAssigment.java:64
 msgid "default label not specified"
-msgstr ""
+msgstr "指定されていないデフォルトのラベル"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/components/finders/OrderElementBandboxFinder.java:51
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/components/finders/OrderBandboxFinder.java:44
