@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libreplan-1.3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-05 08:07+0200\n"
-"PO-Revision-Date: 2012-10-19 17:28+0900\n"
+"PO-Revision-Date: 2012-10-17 22:39+0900\n"
 "Last-Translator: kamino <mlc22067@yahoo.co.jp>\n"
 "Language-Team: Y.KAMINO\n"
 "MIME-Version: 1.0\n"
@@ -699,7 +699,7 @@ msgstr "名"
 
 #: libreplan-webapp/src/main/webapp/workreports/_editWorkReportType.zul:122
 msgid "Complementary text fields"
-msgstr "補完的なテキストフィールド"
+msgstr "補完的なテキストフ​​ィールド"
 
 #: libreplan-webapp/src/main/webapp/subcontract/subcontractedTasks.zul:22
 msgid "LibrePlan: Send To Subcontractors"
@@ -8336,83 +8336,83 @@ msgstr "できるだけ早く"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/PositionConstraintType.java:38
 msgid "start not earlier than"
-msgstr "開始より始める"
+msgstr "しないよりも早く開始"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/PositionConstraintType.java:45
 msgid "start in fixed date"
-msgstr "期日より開始"
+msgstr "確定日付で開始"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/PositionConstraintType.java:57
 msgid "as late as possible"
-msgstr "遅くても可"
+msgstr "できるだけ遅く"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/PositionConstraintType.java:64
 msgid "finish not later than"
-msgstr "遅くとも完了"
+msgstr "遅くとも終了"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/limiting/entities/QueuePosition.java:53
 msgid "Hour should be between 0 and 23"
-msgstr "時間設定は0から23の間でなければなりません"
+msgstr "時間は、0から23の間でなければなりません"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/limiting/entities/LimitingResourceQueueDependency.java:170
 msgid "A queue dependency has to have an origin different from destiny"
-msgstr "キューの依存関係はオリジナルと予定で異なる必要があります"
+msgstr "キューの依存関係は予定とは異なる原因を持っている必要があり"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/OrderAuthorizationType.java:33
 msgid "Read authorization"
-msgstr "読込権限"
+msgstr "認可を読む"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/OrderAuthorizationType.java:34
 msgid "Write authorization"
-msgstr "書込権限"
+msgstr "書込み認可"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:37
 msgid "Web service reader"
-msgstr "Webリーダーサービス"
+msgstr "Webサービスリーダー"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:38
 msgid "Web service writer"
-msgstr "Webライターサービス"
+msgstr "Webサービスのライター"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:39
 msgid "Web service subcontractor operations"
-msgstr "Webサービス運用の外注先"
+msgstr "Webサービスの下請けの操作"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:41
 msgid "Read all projects"
-msgstr "すべてのプロジェクト読込"
+msgstr "すべてのプロジェクトを読込"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:42
 msgid "Edit all projects"
-msgstr "すべてのプロジェクト編集"
+msgstr "すべてのプロジェクトを編集"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:43
 msgid "Create projects"
-msgstr "プロジェクト作成"
+msgstr "プロジェクトを作成"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:73
 msgid "Timesheet Lines List Report"
-msgstr "タイムシートラインリストレポート"
+msgstr "タイムラインリストレポート"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:74
 msgid "Hours Worked Per Resource Report"
-msgstr "リソースごとの作業時間レポート"
+msgstr "営業時間は、リソースレポートあたり勤務"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:75
 msgid "Total Worked Hours By Resource In A Month Report"
-msgstr "リソースによる合計作業時間の月別レポート"
+msgstr "合計今月のレポートでは、リソースによって時間働い"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:76
 msgid "Work And Progress Per Project Report"
-msgstr "プロジェクトごとの作業と進捗状況レポート"
+msgstr "プロジェクトレポートごとの作業と進捗"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:77
 msgid "Work And Progress Per Task Report"
-msgstr "タスクごとの作業と進捗状況レポート"
+msgstr "タスクレポートごとの作業と進捗状況"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:78
 msgid "Estimated/Planned Hours Per Task Report"
-msgstr "タスクあたりの推定/企画時間レポート"
+msgstr "タスクレポートあたりの推定/企画営業"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:79
 msgid "Project Costs Report"
@@ -8420,11 +8420,11 @@ msgstr "プロジェクト費用レポート"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:80
 msgid "Task Scheduling Status In Project Report"
-msgstr "プロジェクトごとのタスクスケジューリングレポート"
+msgstr "プロジェクトレポート、タスクのスケジューリング状況"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:81
 msgid "Materials Needs At Date Report"
-msgstr "素材はデータレポート時に必要です"
+msgstr "材料は日付報告時に必要"
 
 #: libreplan-business/src/main/java/org/libreplan/business/templates/entities/OrderLineTemplate.java:156
 msgid "Line"
@@ -8468,31 +8468,31 @@ msgstr "紫"
 
 #: libreplan-business/src/main/java/org/libreplan/business/calendars/entities/Capacity.java:172
 msgid "unlimited"
-msgstr "無期限"
+msgstr "無制限"
 
 #: libreplan-business/src/main/java/org/libreplan/business/resources/entities/Criterion.java:207
 msgid "[generic all machines]"
-msgstr "[すべての汎用機器]"
+msgstr "[汎用のすべての機器]"
 
 #: libreplan-business/src/main/java/org/libreplan/business/resources/entities/ResourceEnum.java:32
 msgid "WORKER"
-msgstr "作業者"
+msgstr "WORKER"
 
 #: libreplan-business/src/main/java/org/libreplan/business/resources/entities/ResourceEnum.java:33
 msgid "MACHINE"
-msgstr "機器"
+msgstr "機械"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderStatusEnum.java:33
 msgid "OFFERED"
-msgstr "依頼"
+msgstr "OFFERED"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderStatusEnum.java:33
 msgid "ACCEPTED"
-msgstr "適用"
+msgstr "容認"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderStatusEnum.java:33
 msgid "STARTED"
-msgstr "開始"
+msgstr "起動"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderStatusEnum.java:34
 msgid "FINISHED"
@@ -8504,19 +8504,19 @@ msgstr "キャンセル"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderStatusEnum.java:35
 msgid "SUBCONTRACTED PENDING PROJECT"
-msgstr "外注先からの未着手プロジェクト"
+msgstr "下請けPENDING PROJECT"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderStatusEnum.java:35
 msgid "STORED"
-msgstr "格納"
+msgstr "STORED"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/SchedulingState.java:366
 msgid "Fully scheduled"
-msgstr "完全決定"
+msgstr "完全にスケジュール"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/SchedulingState.java:368
 msgid "Partially scheduled"
-msgstr "部分決定"
+msgstr "部分的にスケジュールされた"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/SchedulingState.java:370
 msgid "Unscheduled"
@@ -8528,7 +8528,7 @@ msgstr "F"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/SchedulingState.java:378
 msgid "P"
-msgstr "PP"
+msgstr "P"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/SchedulingState.java:380
 msgid "U"
@@ -8537,38 +8537,39 @@ msgstr "U"
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderElement.java:761
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderLineGroup.java:995
 msgid "Cannot spread two progress in the same task"
-msgstr "同じタスクで2つの進捗状況を広げることはできません"
+msgstr "同じタスクで2つの進捗を広げることはできません"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderElement.java:785
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderElement.java:811
 msgid "Duplicate Progress Assignment For Task"
-msgstr "作業の進捗状況割当をコピー"
+msgstr "タスクの進行状況の割り当てを複製"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderElement.java:1133
 msgid "Quality form already exists"
-msgstr "品質フォームは既に存在しています"
+msgstr "品質のフォームは既に存在しています"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/HoursGroup.java:208
 msgid "Total percentage should be less than 100%"
-msgstr "100％未満でなければなりません"
+msgstr "合計割合が100％未満でなければなりません"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/CriterionRequirementHandler.java:539
 msgid "The criterion already exists into another task"
-msgstr "基準は既にほかのタスクで存在しています"
+msgstr "基準は、別のタスクに既に存在している"
 
 #: libreplan-business/src/main/java/org/libreplan/business/common/entities/ProgressType.java:37
 msgid "Progress with all tasks by hours"
-msgstr "時間別のすべてのタスクの進捗状況"
+msgstr "時間までにすべてのタスクの進捗状況"
 
 #: libreplan-business/src/main/java/org/libreplan/business/common/entities/ProgressType.java:38
 msgid "Progress with critical path tasks by hours"
-msgstr "時間別クリティカルパス作業の進捗状況"
+msgstr "時間までにクリティカルパスのタスクの進捗"
 
 #: libreplan-business/src/main/java/org/libreplan/business/common/entities/ProgressType.java:39
 msgid "Progress with critical path tasks by duration"
-msgstr "期間別クリティカルパス作業の進捗状況"
+msgstr "期間別クリティカルパスのタスクの進捗"
 
 #: libreplan-business/src/main/java/org/libreplan/business/common/daos/EntitySequenceDAO.java:82
 msgid "Entity Sequence cannot be deleted. Entity Sequence already in use"
 msgstr ""
-"エンティティのシーケンスが既に使用されているため、削除することができません。"
+"エンティティのシーケンスを削除することはできません。すでに使用されているエン"
+"ティティのシーケンス"
