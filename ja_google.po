@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libreplan-1.3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-05 08:07+0200\n"
-"PO-Revision-Date: 2012-10-19 17:28+0900\n"
+"PO-Revision-Date: 2012-10-22 19:24+0900\n"
 "Last-Translator: kamino <mlc22067@yahoo.co.jp>\n"
 "Language-Team: Y.KAMINO\n"
 "MIME-Version: 1.0\n"
@@ -7962,7 +7962,7 @@ msgstr "値は時間グループの現在のリストには有効ではありま
 
 #: libreplan-webapp/src/main/webapp/myaccount/monthlyTimesheet.zul:100
 msgid "Total extra per day"
-msgstr "一日あたりの総余分"
+msgstr "追加日の合計"
 
 #: libreplan-webapp/src/main/webapp/workreports/workReport.zul:38
 msgid "Timesheets List"
@@ -7983,11 +7983,11 @@ msgstr "タイムシートデータ"
 
 #: libreplan-webapp/src/main/webapp/calendars/_createNewVersion.zul:34
 msgid "Base calendar type"
-msgstr "ベースカレンダータイプ"
+msgstr "ベースのカレンダータイプ"
 
 #: libreplan-webapp/src/main/webapp/orders/_listOrderElementHours.zul:78
 msgid "Imputed expenses"
-msgstr "転嫁された費用"
+msgstr "転嫁費用"
 
 #: libreplan-webapp/src/main/webapp/planner/taskpanels/_allocationConfiguration.zul:35
 msgid "Planned end"
@@ -8001,23 +8001,23 @@ msgstr "シナリオを保存できませんでした"
 #: libreplan-webapp/src/main/webapp/orders/_orderFilter.zul:33
 #: libreplan-webapp/src/main/webapp/orders/_orderFilter.zul:35
 msgid "Apply filtering to tasks satisfying required criteria"
-msgstr "必要な基準を満たすタスクにフィルタを適用"
+msgstr "必要基準を満たすタスクをフィルタ"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/CustomMenuController.java:485
 #: libreplan-webapp/src/main/webapp/reports/workingArrangementsPerOrderReport.zul:39
 msgid "Task Scheduling Status In Project"
-msgstr "プロジェクト内のタスクのスケジューリング状況"
+msgstr "プロジェクトのタスクスケジュール状態"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/ManageOrderElementAdvancesController.java:754
 msgid ""
 "Subcontractor values are read only because they were reported by the "
 "subcontractor company"
-msgstr ""
-"下請けの値は、それらが下請け会社によって報告されたため、読み取り専用です"
+msgstr "外注先の値は外注先からのレポートのため、読取専用です"
 
 #: libreplan-business/src/main/java/org/libreplan/business/externalcompanies/entities/ExternalCompany.java:149
 msgid "company name must be unique. Company name already used"
-msgstr "会社名が既に使用されている。会社名は一意でなければなりません。"
+msgstr ""
+"入力された会社名が既に使用されてます、会社名は固有でなければなりません。"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/qualityforms/QualityFormCRUDController.java:162
 #: libreplan-webapp/src/main/java/org/libreplan/web/users/dashboard/ExpensesAreaController.java:92
@@ -8025,7 +8025,7 @@ msgstr "会社名が既に使用されている。会社名は一意でなけれ
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/OrderCRUDController.java:873
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/BaseCRUDController.java:313
 msgid "Confirm"
-msgstr "確定"
+msgstr "適用"
 
 #: libreplan-webapp/src/main/webapp/labels/_listLabelTypes.zul:48
 #: libreplan-webapp/src/main/webapp/advance/_listAdvanceTypes.zul:33
@@ -8048,7 +8048,7 @@ msgstr "作成"
 
 #: libreplan-business/src/main/java/org/libreplan/business/requirements/entities/IndirectCriterionRequirement.java:77
 msgid "parent not specified"
-msgstr "親指定されていない"
+msgstr "親指定なし"
 
 #: libreplan-webapp/src/main/webapp/orders/_listOrderElementAuthorizations.zul:43
 #: libreplan-webapp/src/main/webapp/orders/_listOrderElementAuthorizations.zul:67
@@ -8057,38 +8057,38 @@ msgstr "権限"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/materials/MaterialsController.java:491
 msgid "List of materials for category: {0}"
-msgstr "カテゴリの資料のリスト: {0}"
+msgstr "カテゴリの資料リスト: {0}"
 
 #: libreplan-webapp/src/main/webapp/orders/_ordersTab.zul:36
 msgid "Cancel edition"
-msgstr "版をキャンセル"
+msgstr "変更キャンセル"
 
 #: libreplan-webapp/src/main/webapp/templates/_materialAssignmentsBox.zul:32
 #: libreplan-webapp/src/main/webapp/orders/_assignmentsBox.zul:32
 msgid "Total price"
-msgstr "合計費用:"
+msgstr "合計費用"
 
 #: libreplan-business/src/main/java/org/libreplan/business/resources/entities/CriterionType.java:420
 msgid "criterion codes must be unique inside a criterion  type"
-msgstr "基準コードは基準型の内部で一意でなければなりません"
+msgstr "基準コードは基準タイプの中で固有でなければなりません"
 
 #: libreplan-webapp/src/main/webapp/myaccount/monthlyTimesheet.zul:37
 msgid "Warning: Not editing from home page of bound users"
-msgstr "警告：バインドユーザのホーム·ページから編集していない"
+msgstr "警告：制限ユーザはホームページから編集できません"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/users/dashboard/MonthlyTimesheetController.java:192
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/EffortDurationBox.java:49
 msgid "Invalid Effort Duration"
-msgstr "無効なエフォート時間"
+msgstr "実行時間が無効"
 
 #: libreplan-business/src/main/java/org/libreplan/business/resources/entities/VirtualWorker.java:97
 msgid "Virtual worker group name must be unique"
-msgstr "仮想ワーカーグループ名は一意でなければなりません"
+msgstr "仮想作業グループの名前は固有でなければなりません"
 
 #: libreplan-business/src/main/java/org/libreplan/business/costcategories/entities/HourCost.java:96
 #: libreplan-business/src/main/java/org/libreplan/business/resources/entities/CriterionSatisfaction.java:193
 msgid "start date not specified"
-msgstr "指定されていない日付を開始"
+msgstr "開始が指定されていません"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/materials/MaterialsController.java:271
 #: libreplan-webapp/src/main/java/org/libreplan/web/materials/MaterialsController.java:292
@@ -8165,11 +8165,11 @@ msgstr "削除"
 
 #: libreplan-webapp/src/main/webapp/orders/_orderElementTreeFilter.zul:46
 msgid "Labels without inheritance"
-msgstr "継承なしのラベル"
+msgstr "継続なしラベル"
 
 #: libreplan-business/src/main/java/org/libreplan/business/externalcompanies/entities/CommunicationType.java:31
 msgid "New project"
-msgstr "新しいプロジェクト（&P）"
+msgstr "新規プロジェクト"
 
 #: libreplan-business/src/main/java/org/libreplan/business/externalcompanies/entities/CommunicationType.java:31
 msgid "Progress Update"
@@ -8177,27 +8177,27 @@ msgstr "進捗更新"
 
 #: libreplan-business/src/main/java/org/libreplan/business/externalcompanies/entities/CommunicationType.java:32
 msgid "Update Delivering Date"
-msgstr "日付をお届け更新"
+msgstr "出荷日更新"
 
 #: libreplan-business/src/main/java/org/libreplan/business/externalcompanies/entities/CommunicationType.java:32
 msgid "End date update"
-msgstr "終了日の更新"
+msgstr "終了日更新"
 
 #: libreplan-business/src/main/java/org/libreplan/business/materials/entities/MaterialStatusEnum.java:32
 msgid "RECEIVED"
-msgstr "RECEIVED"
+msgstr "受領"
 
 #: libreplan-business/src/main/java/org/libreplan/business/materials/entities/MaterialStatusEnum.java:33
 msgid "PENDING"
-msgstr "保留。"
+msgstr "保留"
 
 #: libreplan-business/src/main/java/org/libreplan/business/materials/entities/MaterialStatusEnum.java:34
 msgid "ORDERED"
-msgstr "注文済み"
+msgstr "注文済"
 
 #: libreplan-business/src/main/java/org/libreplan/business/materials/entities/MaterialStatusEnum.java:35
 msgid "PROCESSING"
-msgstr "処理"
+msgstr "処理中"
 
 #: libreplan-business/src/main/java/org/libreplan/business/materials/entities/MaterialStatusEnum.java:36
 msgid "CANCELED"
@@ -8205,23 +8205,23 @@ msgstr "キャンセル"
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/PositionInWorkReportEnum.java:34
 msgid "heading"
-msgstr "heading"
+msgstr "題目"
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/PositionInWorkReportEnum.java:34
 msgid "line"
-msgstr "進みます。）"
+msgstr "線"
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/HoursManagementEnum.java:31
 msgid "Number of assigned hours"
-msgstr "割り当てられた時間数"
+msgstr "割当られた時間数"
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/HoursManagementEnum.java:32
 msgid "Number of hours calculated by clock"
-msgstr "クロックによって計算された時間数"
+msgstr "記録によって計算された時間数"
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/HoursManagementEnum.java:33
 msgid "Number of assigned hours and time"
-msgstr "割り当てられた時間と時間数"
+msgstr "割当られた時間と時間数"
 
 #: libreplan-business/src/main/java/org/libreplan/business/qualityforms/entities/QualityFormType.java:29
 msgid "by percentage"
@@ -8233,11 +8233,11 @@ msgstr "品目別"
 
 #: libreplan-business/src/main/java/org/libreplan/business/settings/entities/Language.java:36
 msgid "Use browser language configuration"
-msgstr "ブラウザの言語設定を使用する"
+msgstr "ブラウザの言語設定を使用"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/StretchesFunction.java:410
 msgid "Stretches must sum 100%"
-msgstr "ストレッチは100％を出さなくてはなりません"
+msgstr "伸張の合計は100%でなければいけません"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/AssignmentFunction.java:76
 msgid "Flat"
@@ -8245,7 +8245,7 @@ msgstr "フラット"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/AssignmentFunction.java:78
 msgid "Stretches"
-msgstr "ストレッチ"
+msgstr "伸張"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/AssignmentFunction.java:79
 msgid "Interpolation"
@@ -8257,66 +8257,64 @@ msgstr "総和"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/SubcontractState.java:32
 msgid "Pending initial send"
-msgstr "未定のイニシャルを送ります"
+msgstr "保留イニシャル送信"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/SubcontractState.java:33
 msgid "Pending update delivering date"
-msgstr "日付を提供する保留中の更新"
+msgstr "アップデート日を保留"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/SubcontractState.java:34
 msgid "Failed sent"
-msgstr "送信に失敗しました"
+msgstr "送信失敗"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/SubcontractState.java:34
 msgid "Failed update"
-msgstr "アップデートに失敗しました"
+msgstr "アップデート失敗"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/SubcontractState.java:35
 msgid "Success sent"
-msgstr "送信に成功しました"
+msgstr "送信成功"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/allocationalgorithms/ResourcesPerDayModification.java:95
 msgid "There are no days available due to not satisfying the criteria."
-msgstr "基準を満たしていないために利用可能な日はありません。"
+msgstr "基準を満たしていないため使用可能な日がありません。"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/allocationalgorithms/ResourcesPerDayModification.java:96
 msgid ""
 "Another possibility is that the resources do not have days available due to "
 "their calendars."
 msgstr ""
-"もう一つの可能性は、リソースが自分のカレンダーのため利用可能日を持っていない"
-"ということです。"
+"リソースが自分のカレンダーで使用可能な日を持っていない可能性があります。"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/allocationalgorithms/ResourcesPerDayModification.java:102
 msgid ""
 "There are no days available in the days marked available by the task "
 "calendar."
-msgstr ""
-"タスクカレンダーによって利用可能とマーク日間で利用可能な日はありません。"
+msgstr "タスクカレンダーで使用可能な日とチェックされた日がありません。"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/allocationalgorithms/ResourcesPerDayModification.java:103
 msgid "Maybe the criteria are not satisfied in those days."
-msgstr "多分基準は当時満足していない。"
+msgstr "基準を当時満足していないでしょう。"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/allocationalgorithms/ResourcesPerDayModification.java:175
 msgid "Resource is not available from task's start"
-msgstr "リソースは、タスクの開始からは利用できません"
+msgstr "リソースはタスクの開始から利用することはできません"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/allocationalgorithms/ResourcesPerDayModification.java:180
 msgid "Resource is not available according to task's calendar"
-msgstr "リソースは、タスクのカレンダーによると利用できません"
+msgstr "リソースはタスクカレンダーで利用できません"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/TaskStatusEnum.java:28
 msgid "Finished"
-msgstr "終了"
+msgstr "完了"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/TaskStatusEnum.java:29
 msgid "In progress"
-msgstr "進行中"
+msgstr "着手中"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/TaskStatusEnum.java:30
 msgid "Pending"
-msgstr "未決定"
+msgstr "保留"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/TaskStatusEnum.java:31
 msgid "Blocked"
@@ -8324,7 +8322,7 @@ msgstr "ブロック"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/TaskStatusEnum.java:32
 msgid "Ready to start"
-msgstr "開始する準備が"
+msgstr "開始する準備"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/TaskDeadlineViolationStatusEnum.java:35
 msgid "Deadline violated"
@@ -8528,7 +8526,7 @@ msgstr "F"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/SchedulingState.java:378
 msgid "P"
-msgstr "PP"
+msgstr "P"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/SchedulingState.java:380
 msgid "U"
