@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libreplan-1.3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-05 08:07+0200\n"
-"PO-Revision-Date: 2012-10-22 19:24+0900\n"
+"PO-Revision-Date: 2012-10-23 18:20+0900\n"
 "Last-Translator: kamino <mlc22067@yahoo.co.jp>\n"
 "Language-Team: Y.KAMINO\n"
 "MIME-Version: 1.0\n"
@@ -7846,15 +7846,15 @@ msgstr "アルファ"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/resources/criterion/CriterionTreeController.java:329
 msgid "Criterion has subelements"
-msgstr "サブ要素を持つ基準"
+msgstr "基準はサブ要素を持っています"
 
 #: libreplan-webapp/src/main/webapp/subcontract/subcontractedTasks.zul:47
 msgid "Last communication"
-msgstr "最後の通信"
+msgstr "前回の通信"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/workreports/WorkReportCRUDController.java:427
 msgid "effort is not properly calculated based on clock"
-msgstr "努力は正しくクロックに基づいて計算されません"
+msgstr "成果が正しい時間に基づいて計算されていません"
 
 #: libreplan-webapp/src/main/webapp/reports/timeLineMaterialReport.zul:65
 #: libreplan-webapp/src/main/webapp/orders/_assignmentsBox.zul:33
@@ -7863,7 +7863,7 @@ msgstr "ステータス"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/calendars/BaseCalendarEditionController.java:323
 msgid "from {0}"
-msgstr "から{0}"
+msgstr "{0} から"
 
 #: libreplan-webapp/src/main/webapp/myaccount/settings.zul:114
 msgid "Resource load view"
@@ -7890,19 +7890,19 @@ msgstr "時間"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/calendars/BaseCalendarModel.java:606
 msgid "Could not save the new calendar"
-msgstr "新しいカレンダーを保存できませんでした"
+msgstr "新規カレンダーを保存できませんでした"
 
 #: libreplan-webapp/src/main/webapp/qualityforms/_editQualityForm.zul:56
 msgid "Quality form type"
-msgstr "品質のフォームタイプ"
+msgstr "品質フォームタイプ"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/BaseCRUDController.java:318
 msgid "{0} \"{1}\" deleted"
-msgstr "{0} \"{1}\" deleted"
+msgstr "{0} \"{1}\" 削除"
 
 #: libreplan-business/src/main/java/org/libreplan/business/costcategories/entities/TypeOfWorkHours.java:146
 msgid "type of work hours for monthly timesheets cannot be disabled"
-msgstr "毎月のタイムシートのための労働時間の種類を無効にすることはできません"
+msgstr "月間タイムシートで労働時間の種類を無効にすることはできません"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/limitingresources/QueueComponent.java:364
 msgid " hours"
@@ -7911,24 +7911,24 @@ msgstr "時間"
 #: libreplan-webapp/src/main/java/org/libreplan/web/dashboard/DashboardController.java:259
 msgid ""
 "% Deviation interval (difference % between consumed and estimated hours)"
-msgstr "％偏差間隔（消費と推定時間との差％）"
+msgstr "% 偏差間隔（消費と推定時間との差 %）"
 
 #: libreplan-webapp/src/main/webapp/labels/_editLabelType.zul:69
 msgid "New label"
-msgstr "新しいラベル"
+msgstr "新規ラベル"
 
 #: libreplan-business/src/main/java/org/libreplan/business/resources/entities/Worker.java:144
 msgid "Worker ID cannot be empty"
-msgstr "作業者IDは空にすることはできません"
+msgstr "作業者IDが空白です"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/reassign/Type.java:31
 #: libreplan-webapp/src/main/java/org/libreplan/web/reports/OrderCostsPerResourceModel.java:303
 msgid "All project tasks"
-msgstr "すべてのプロジェクトのタスク"
+msgstr "すべてのプロジェクトタスク"
 
 #: libreplan-webapp/src/main/webapp/common/configuration.zul:390
 msgid "LDAP Roles (separated by ;)"
-msgstr "LDAPロール（;)で区切って"
+msgstr "LDAPルール (;で区切る)"
 
 #: libreplan-webapp/src/main/webapp/planner/taskpanels/_allocationConfiguration.zul:27
 #: libreplan-webapp/src/main/webapp/limitingresources/manualAllocation.zul:78
@@ -7941,24 +7941,24 @@ msgstr "データベース"
 
 #: libreplan-webapp/src/main/webapp/planner/taskpanels/_tabPanelSubcontract.zul:61
 msgid "Subcontract price"
-msgstr "外注価格"
+msgstr "外注費"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/CustomMenuController.java:427
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/UserRole.java:71
 msgid "Send To Customers"
-msgstr "顧客に送る"
+msgstr "顧客へ送信"
 
 #: libreplan-webapp/src/main/webapp/common/page_not_found.zul:40
 msgid "The page that you are requesting does not exist."
-msgstr "あなたが要求しているページは存在しません。"
+msgstr "要求しているページは存在しません。"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/allocation/AllocationRow.java:835
 msgid "Resources per day are zero"
-msgstr "一日あたりのリソースがゼロである"
+msgstr "日あたりのリソースがゼロです"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/tree/TreeController.java:1079
 msgid "Value is not valid in current list of Hours Group"
-msgstr "値は時間グループの現在のリストには有効ではありません"
+msgstr "値は時間グループリストにおいて有効ではありません"
 
 #: libreplan-webapp/src/main/webapp/myaccount/monthlyTimesheet.zul:100
 msgid "Total extra per day"
