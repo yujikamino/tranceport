@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libreplan-1.3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-05 08:07+0200\n"
-"PO-Revision-Date: 2012-10-23 18:20+0900\n"
+"PO-Revision-Date: 2012-10-24 15:57+0900\n"
 "Last-Translator: kamino <mlc22067@yahoo.co.jp>\n"
 "Language-Team: Y.KAMINO\n"
 "MIME-Version: 1.0\n"
@@ -1185,7 +1185,7 @@ msgstr "開始日"
 
 #: libreplan-webapp/src/main/webapp/typeofworkhours/typeOfWorkHours.zul:23
 msgid "LibrePlan: Hours Types"
-msgstr "LibrePlan：時間タイプ"
+msgstr "LibrePlan：労働タイプ"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/dashboard/GlobalProgressChart.java:44
 msgid "By all tasks hours"
@@ -6707,7 +6707,7 @@ msgstr "予算が指定されていません"
 #: libreplan-webapp/src/main/webapp/orders/_edition.zul:88
 #: libreplan-webapp/src/main/webapp/typeofworkhours/_editTypeOfWorkHours.zul:46
 msgid "Generate code"
-msgstr "コードを生成"
+msgstr "コード生成"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/tree/TreeComponent.java:116
 msgid "Scheduling state"
@@ -6719,7 +6719,7 @@ msgstr "個人データ"
 
 #: libreplan-webapp/src/main/webapp/reports/hoursWorkedPerWorkerReport.zul:21
 msgid "LibrePlan: Hours Worked Per Resource"
-msgstr "LibrePlan：時間、リソースごとに勤務"
+msgstr "LibrePlan：時間、リソースごとの勤務時間"
 
 #: libreplan-webapp/src/main/webapp/users/users.zul:23
 msgid "LibrePlan: User Accounts"
@@ -6727,12 +6727,12 @@ msgstr "LibrePlan：ユーザーアカウント"
 
 #: libreplan-webapp/src/main/webapp/orders/_listOrderElementHours.zul:213
 msgid "Budget in money"
-msgstr "資金の予算"
+msgstr "予算費用"
 
 #: libreplan-webapp/src/main/webapp/common/access_forbidden.zul:45
 #: libreplan-webapp/src/main/webapp/common/page_not_found.zul:45
 msgid "Go to init"
-msgstr "initに行く"
+msgstr "初期化"
 
 #: libreplan-webapp/src/main/webapp/common/error.zul:54
 #: libreplan-webapp/src/main/webapp/common/event_error.zul:50
@@ -6741,7 +6741,7 @@ msgstr "ﾘﾛｰﾄﾞ"
 
 #: libreplan-webapp/src/main/webapp/orders/_listOrderElementAuthorizations.zul:26
 msgid "Profiles authorization"
-msgstr "プロファイルの認可"
+msgstr "プロファイル操作権限"
 
 #: libreplan-webapp/src/main/webapp/planner/taskpanels/_tabPanelLimitingResourceAllocation.zul:71
 msgid "Assignation"
@@ -6749,11 +6749,11 @@ msgstr "割当"
 
 #: libreplan-webapp/src/main/webapp/myaccount/settings.zul:98
 msgid "Planning charts expanded"
-msgstr "計画チャートが拡大"
+msgstr "計画チャート展開"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/calendars/BaseCalendarEditionController.java:703
 msgid "Inh"
-msgstr "INH"
+msgstr "Inh"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/TaskGroup.java:110
 msgid "element associated to a task group have to be defined"
@@ -6770,19 +6770,19 @@ msgstr "名前を空白にすることはできません。"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/reassign/ReassignCommand.java:190
 msgid "Doing {0} reassignations"
-msgstr "やって{0} reassignations"
+msgstr "{0}の再割当"
 
 #: libreplan-webapp/src/main/webapp/common/configuration.zul:212
 msgid "Select entity"
-msgstr "エンティティを選択します"
+msgstr "企業選択"
 
 #: libreplan-business/src/main/java/org/libreplan/business/costcategories/entities/HourCost.java:153
 msgid "The end date cannot be before the start date"
-msgstr "終了日が開始日より前にすることはできません"
+msgstr "終了日を開始日より前に設定するすることはできません"
 
 #: libreplan-webapp/src/main/webapp/users/_editUser.zul:114
 msgid "Go to worker edition window"
-msgstr "ワーカー版ウィンドウに移動"
+msgstr "作業用ウィンドウに移動"
 
 #: libreplan-webapp/src/main/webapp/templates/_historicalAssignment.zul:40
 msgid "Worked hours"
@@ -6790,12 +6790,12 @@ msgstr "実働時間"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/advance/AdvanceTypeCRUDController.java:95
 msgid "Invalid value. Default Max Value cannot be empty"
-msgstr "値が無効です。デフォルトの最大値は空にすることはできません"
+msgstr "値が無効です。最大値は空白にすることはできません"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/ManageOrderElementAdvancesController.java:129
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/ManageOrderElementAdvancesController.java:142
 msgid "Invalid Spread values. At least one value should be true"
-msgstr "無効な拡散値。少なくとも1つの値がtrueでなければなりません"
+msgstr "スプレッド値が無効です。少なくとも1つの値が真でなければなりません"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderElement.java:587
 #: libreplan-business/src/main/java/org/libreplan/business/common/IntegrationEntity.java:48
@@ -6804,11 +6804,11 @@ msgstr "コードが指定されていません"
 
 #: libreplan-webapp/src/main/webapp/orders/_list.zul:22
 msgid "Projects list"
-msgstr "プロジェクトのリスト"
+msgstr "プロジェクトリスト"
 
 #: libreplan-business/src/main/java/org/libreplan/business/calendars/entities/BaseCalendar.java:1201
 msgid "last sequence code not specified"
-msgstr "指定されていない最後のシーケンスコード"
+msgstr "シーケンスコードが指定されていません"
 
 #: libreplan-webapp/src/main/webapp/reports/workingProgressPerTaskReport.zul:183
 #: libreplan-webapp/src/main/webapp/reports/completedEstimatedHoursPerTask.zul:184
@@ -6826,8 +6826,8 @@ msgid ""
 "Invalid format prefix. Format prefix cannot be empty, contain '_' or contain "
 "whitespaces."
 msgstr ""
-"無効なフォーマットプレフィックス。フォーマットプレフィックスは空にすることは"
-"できません、 '_'（アンダーバー）を含めるか、または空白が含まれています。"
+"プレフィックスが無効なフォーマットです。プレフィックスの記述に空白または "
+"'_'（アンダーバー）を使用することはできません。"
 
 #: libreplan-webapp/src/main/webapp/orders/components/_orderElementTree.zul:55
 msgid "Create template from selected task"
@@ -6840,7 +6840,7 @@ msgstr "すべてのプロジェクト"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/limitingresources/QueueComponent.java:213
 msgid "Completed: {0}%"
-msgstr "完了: {0}%"
+msgstr "{0}%完了"
 
 #: libreplan-webapp/src/main/webapp/users/_editUser.zul:67
 #: libreplan-webapp/src/main/webapp/myaccount/changePassword.zul:49
@@ -6853,20 +6853,20 @@ msgstr "パスワード"
 #: libreplan-webapp/src/main/webapp/resources/worker/_listVirtualWorkers.zul:36
 #: libreplan-webapp/src/main/webapp/resources/worker/_edition.zul:92
 msgid "Observations"
-msgstr "観察："
+msgstr "考察"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/OrderCRUDController.java:950
 msgid "Edit project"
-msgstr "プロジェクト情報の編集"
+msgstr "プロジェクト編集"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/TaskElementAdapter.java:1076
 msgid "Hours cost: {0}, Expenses cost: {1}"
-msgstr "時間コスト: {0} 、経費のコスト: {1}"
+msgstr "労働費用: {0} 、経費: {1}"
 
 #: libreplan-webapp/src/main/webapp/templates/_advances.zul:27
 #: libreplan-webapp/src/main/webapp/orders/_listOrderElementAdvances.zul:25
 msgid "Progress assignments"
-msgstr "進捗の割り当て"
+msgstr "進捗の割当"
 
 #: libreplan-webapp/src/main/webapp/calendars/_edition.zul:252
 #: libreplan-webapp/src/main/webapp/calendars/_edition.zul:274
@@ -6879,8 +6879,7 @@ msgstr "月"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/allocation/FormBinder.java:910
 msgid "{0} could not be allocated. Cannot allocate more than one resource"
-msgstr ""
-"{0}割り当てられませんでした。複数のリソースを割り当てることができません。"
+msgstr "{0}が割り当てられていません。リソースを割当てることができませんでした"
 
 #: libreplan-webapp/src/main/webapp/excetiondays/_listExceptionDayTypes.zul:32
 #: libreplan-webapp/src/main/webapp/excetiondays/_editExceptionDayType.zul:58
@@ -6893,25 +6892,23 @@ msgstr "現在のパスワードが間違っています"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/materials/MaterialsController.java:366
 msgid "Cannot insert material in general view. Please, select a category"
-msgstr ""
-"一般的な見解に素材を挿入することはできません。 カテゴリを選択してください"
+msgstr "概要に素材を挿入することはできません。 カテゴリを選択してください"
 
 #: libreplan-webapp/src/main/webapp/expensesheet/expenseSheet.zul:125
 msgid "Expense lines"
-msgstr "経費明細"
+msgstr "費用明細"
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/WorkReport.java:495
 msgid "In monthly timesheets, all timesheet lines should be in the same month"
-msgstr ""
-"毎月のタイムシートでは、すべてのタイムラインは、同じ月にする必要があります"
+msgstr "月間タイムシート内ではすべてのタイムラインを同月にする必要があります"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/BaseCRUDController.java:311
 msgid "Delete {0} \"{1}\". Are you sure?"
-msgstr "Delete {0} \"{1}\". Are you sure?"
+msgstr "{0} \"{1}\"が削除されますがよろしいですか？"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/allocation/AllocationRow.java:441
 msgid "Only {0} resources per day were achieved for current allocation"
-msgstr "唯一の{0}日あたりのリソースが現在の割り当てのために達成された"
+msgstr "1日に当たり{0} のリソースが割当に対して達成されました"
 
 #: libreplan-webapp/src/main/webapp/planner/editTask.zul:81
 #: libreplan-webapp/src/main/webapp/planner/reassign.zul:48
@@ -6923,7 +6920,7 @@ msgstr "唯一の{0}日あたりのリソースが現在の割り当てのため
 #: libreplan-webapp/src/main/webapp/limitingresources/manualAllocation.zul:133
 #: libreplan-webapp/src/main/webapp/common/layout/template.zul:102
 msgid "Accept"
-msgstr "許可"
+msgstr "適用"
 
 #: libreplan-webapp/src/main/webapp/externalcompanies/_editExternalCompany.zul:81
 #: libreplan-webapp/src/main/webapp/common/configuration.zul:278
@@ -6941,12 +6938,12 @@ msgstr "例:{0}"
 msgid ""
 "Cannot delete timesheet template. There are some timesheets bound to it."
 msgstr ""
-"タイムシートのテンプレートを削除することはできません。それにバインドされてい"
-"るいくつかのタイムシートがあります。"
+"タイムシートのテンプレートを削除することができません。それに関連するタイム"
+"シートがあります。"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/calendars/BaseCalendarEditionController.java:618
 msgid "Please, select type of exception"
-msgstr "、例外の種類を選択してください"
+msgstr "例外の種類を選択してください"
 
 #: libreplan-webapp/src/main/webapp/orders/_listOrderElementAdvances.zul:48
 msgid "Calculated"
@@ -6959,11 +6956,11 @@ msgstr " The "
 
 #: libreplan-webapp/src/main/webapp/common/layout/login.zul:56
 msgid "Access to the system"
-msgstr "システムにアクセス"
+msgstr "システムアクセス"
 
 #: libreplan-webapp/src/main/webapp/planner/montecarlo_function.zul:48
 msgid "Probability"
-msgstr "確率"
+msgstr "予定"
 
 #: libreplan-webapp/src/main/webapp/workreports/workReport.zul:139
 msgid "Report data"
@@ -6976,7 +6973,7 @@ msgstr "材料単位"
 
 #: libreplan-webapp/src/main/webapp/planner/_legendLoadChartOrder.zul:44
 msgid "External load"
-msgstr "外部負荷"
+msgstr "外部ロード"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/users/dashboard/MonthlyTimesheetController.java:676
 #: libreplan-webapp/src/main/java/org/libreplan/web/users/dashboard/MonthlyTimesheetController.java:685
@@ -6984,20 +6981,18 @@ msgid ""
 "There are unsaved changes in the current monthly timesheet, please save "
 "before moving"
 msgstr ""
-"現在の毎月のタイムシートに保存されていない変更がありますが、移動する前に保存"
-"してください"
+"月間タイムシートはへんこうされましたが保存されていません、ページ移動する前に"
+"保存してください"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/subcontract/ReportAdvancesController.java:207
 msgid "Progress sent successfully"
-msgstr "進捗状況は正常に送信され"
+msgstr "進捗状況正常送信"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/resources/worker/WorkerModel.java:416
 msgid ""
 "Please, allow Multiple Active Criteria in this type in order to use selected "
 "Assignment Strategy"
-msgstr ""
-"、選択した割り当ての戦略を使用するためには、このタイプの複数のアクティブな基"
-"準を許可してください"
+msgstr "選択した戦略の割当を使用するには複数の基準を許可してください"
 
 #: libreplan-webapp/src/main/webapp/planner/taskpanels/_tabPanelLimitingResourceAllocation.zul:73
 msgid "Priority"
@@ -7005,16 +7000,16 @@ msgstr "優先順位"
 
 #: libreplan-webapp/src/main/webapp/planner/advance_allocation.zul:47
 msgid "Apply changes and continue edition"
-msgstr "変更を適用し、版を継続"
+msgstr "変更適用し編集を継続"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/calendars/BaseCalendarEditionController.java:222
 #: libreplan-webapp/src/main/webapp/excetiondays/_editExceptionDayType.zul:80
 msgid "Infinitely Over Assignable"
-msgstr "無限アサイナブル以上"
+msgstr "無期限の割当"
 
 #: libreplan-webapp/src/main/webapp/orders/_listOrderElementHours.zul:246
 msgid "Money spent"
-msgstr "お金が費やさ"
+msgstr "支出費用"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/workreports/WorkReportCRUDController.java:818
 #: libreplan-webapp/src/main/java/org/libreplan/web/tree/TreeComponent.java:85
@@ -7068,11 +7063,11 @@ msgstr "コード"
 #: libreplan-webapp/src/main/java/org/libreplan/web/workreports/WorkReportCRUDController.java:193
 #: libreplan-webapp/src/main/java/org/libreplan/web/users/dashboard/MonthlyTimesheetController.java:640
 msgid "Monthly timesheet saved"
-msgstr "毎月のタイムシートは、保存された"
+msgstr "月間タイムシートが保存されました"
 
 #: libreplan-webapp/src/main/webapp/planner/stretches_function.zul:40
 msgid "Add stretch"
-msgstr "長さを追加"
+msgstr "長さ追加"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/ManageOrderElementAdvancesController.java:302
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/ManageOrderElementAdvancesController.java:509
@@ -7080,8 +7075,8 @@ msgid ""
 "Progress Assignment cannot be deleted or changed. Progress Assignment "
 "contains Progress Consolidations values"
 msgstr ""
-"進捗の割り当てを削除または変更することはできません。進捗の割り当ては、"
-"Progress集約値が含まれています"
+"進捗の割当を削除または変更することはできません。進捗の割当は統計値が含まれて"
+"います"
 
 #: libreplan-webapp/src/main/webapp/planner/taskpanels/_tabPanelLimitingResourceAllocation.zul:70
 msgid "Assignation type"
@@ -7089,11 +7084,11 @@ msgstr "割当タイプ"
 
 #: libreplan-webapp/src/main/webapp/planner/print_configuration.zul:33
 msgid "Show resource assignments"
-msgstr "リソースの割り当てを表示する"
+msgstr "リソースの割当を表示"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/allocation/ResourceAllocationController.java:369
 msgid "Calculate Workable Days"
-msgstr "実行可能な日数を計算"
+msgstr "実行可能日数計算"
 
 #: libreplan-business/src/main/java/org/libreplan/business/advance/entities/AdvanceType.java:114
 msgid "unit name not specified"
@@ -7114,7 +7109,7 @@ msgstr "開始日"
 
 #: libreplan-webapp/src/main/webapp/calendars/_edition.zul:183
 msgid "Update exception"
-msgstr "例外を更新"
+msgstr "強制更新"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/TreeElementOperationsController.java:257
 msgid "Operation cannot be done"
@@ -7132,11 +7127,11 @@ msgstr "予算"
 
 #: libreplan-webapp/src/main/webapp/advance/_editAdvanceTypes.zul:38
 msgid "Unit name"
-msgstr "単位名"
+msgstr "ユニット名"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/ManageOrderElementAdvancesController.java:741
 msgid "Progress that are reported by quality forms cannot be modified"
-msgstr "品質のフォームで報告されている進行を変更することはできません"
+msgstr "品質フォームで報告されている進捗を変更することはできません"
 
 #: libreplan-webapp/src/main/webapp/common/configuration.zul:23
 msgid "LibrePlan: Main Settings"
@@ -7144,7 +7139,7 @@ msgstr "LibrePlan：メイン設定"
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/WorkReportLabelTypeAssigment.java:64
 msgid "default label not specified"
-msgstr "指定されていないデフォルトのラベル"
+msgstr "デフォルトのラベルが確定されていません"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/components/finders/OrderElementBandboxFinder.java:51
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/components/finders/OrderBandboxFinder.java:44
@@ -7152,28 +7147,28 @@ msgstr "指定されていないデフォルトのラベル"
 #: libreplan-webapp/src/main/webapp/subcontract/subcontractedTasks.zul:50
 #: libreplan-webapp/src/main/webapp/subcontract/reportAdvances.zul:44
 msgid "Project code"
-msgstr "（プロジェクトコード）"
+msgstr "プロジェクトコード"
 
 #: libreplan-webapp/src/main/webapp/orders/_listOrderElementAuthorizations.zul:32
 #: libreplan-webapp/src/main/webapp/orders/_listOrderElementAuthorizations.zul:57
 msgid "Write"
-msgstr "書き込み"
+msgstr "書込"
 
 #: libreplan-webapp/src/main/webapp/templates/_historicalStatistics.zul:39
 msgid "Number of applications"
-msgstr "応募件数"
+msgstr "アプリケーション件数"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/limitingresources/LimitingResourcesController.java:503
 msgid "Assign element to queue automatically"
-msgstr "自動的にキューに要素を割り当てる"
+msgstr "自動的にキューに要素を割当"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/users/UserCRUDController.java:396
 msgid "Confirm worker edition"
-msgstr "労働者のエディションを確定する"
+msgstr "作業者の編集を適用"
 
 #: libreplan-webapp/src/main/webapp/workreports/workReportQuery.zul:74
 msgid "type"
-msgstr "type"
+msgstr "タイプ"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/calendars/BaseCalendarEditionController.java:605
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/components/ResourceAllocationBehaviour.java:38
@@ -7199,19 +7194,19 @@ msgstr "プロジェクトビュー"
 #: libreplan-webapp/src/main/webapp/montecarlo/_montecarlo.zul:53
 #: libreplan-webapp/src/main/webapp/montecarlo/_montecarlo.zul:55
 msgid "Probability %"
-msgstr "確率％"
+msgstr "統計 ％"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/order/OrderPlanningModel.java:706
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/company/CompanyPlanningModel.java:323
 #: libreplan-webapp/src/main/java/org/libreplan/web/resourceload/ResourceLoadController.java:854
 #: libreplan-webapp/src/main/webapp/planner/_legendLoadChartOrder.zul:49
 msgid "Load"
-msgstr "積載"
+msgstr "ロード"
 
 #: libreplan-webapp/src/main/webapp/resources/_criterions.zul:27
 #: libreplan-webapp/src/main/webapp/resources/criterions/_criterionsTree.zul:28
 msgid "New criterion"
-msgstr "新基準"
+msgstr "新規基準作成"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/OrderModel.java:696
 #: libreplan-webapp/src/main/webapp/materials/materials.zul:83
@@ -7230,7 +7225,7 @@ msgstr "新基準"
 #: libreplan-webapp/src/main/webapp/orders/_orderElementDetails.zul:59
 #: libreplan-webapp/src/main/webapp/orders/_edition.zul:98
 msgid "Description"
-msgstr "説明"
+msgstr "概要"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/limitingresources/QueueComponent.java:218
 msgid "Resource: {0}"
@@ -7243,7 +7238,7 @@ msgstr "適用"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/resources/worker/WorkerCRUDController.java:969
 msgid "Do you want to remove bound user \"{0}\" too?"
-msgstr "Do you want to remove bound user \"{0}\" too?"
+msgstr "連結されたユーザ\"{0}\"を削除しますか？"
 
 #: libreplan-webapp/src/main/webapp/subcontract/customerCommunications.zul:52
 #: libreplan-webapp/src/main/webapp/subcontract/subcontractorCommunications.zul:52
@@ -7256,11 +7251,11 @@ msgstr "ノード編集"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/allocation/FormBinder.java:670
 msgid "already exists an allocation for criteria {0}"
-msgstr "基準の配分すでに存在している{0}"
+msgstr "基準配分すでに設定されています{0}"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/expensesheet/ExpenseSheetCRUDController.java:514
 msgid "Code cannot be empty."
-msgstr "コードは、空にすることはできません。"
+msgstr "コードは空白にすることはできません。"
 
 #: libreplan-webapp/src/main/webapp/orders/_edition.zul:216
 msgid "Project type"
@@ -7272,13 +7267,11 @@ msgstr "進む(F)"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/ManageOrderElementAdvancesController.java:1340
 msgid "Invalid date. Date must be unique for this Progress Assignment"
-msgstr ""
-"無効な日付です。日付は、この進捗状況の割り当てに対して一意でなければなりませ"
-"ん"
+msgstr "無効な日付です。日付は進捗状況の割当に対して一意でなければなりません"
 
 #: libreplan-webapp/src/main/webapp/templates/_historicalStatistics.zul:43
 msgid "Number of finished applications"
-msgstr "完成したアプリケーションの数"
+msgstr "完成したアプリケーション数"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/limitingresources/QueueComponent.java:469
 msgid "Invalid queue element"
@@ -7288,17 +7281,17 @@ msgstr "無効なキュー·エレメント"
 #: libreplan-webapp/src/main/java/org/libreplan/web/limitingresources/ManualAllocationController.java:584
 #: libreplan-webapp/src/main/java/org/libreplan/web/limitingresources/ManualAllocationController.java:592
 msgid "Unnasigned"
-msgstr "Unnasigned"
+msgstr "未割当"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/dashboard/DashboardController.java:233
 #: libreplan-webapp/src/main/java/org/libreplan/web/dashboard/DashboardController.java:260
 #: libreplan-webapp/src/main/webapp/myaccount/_monthlyTimesheetsArea.zul:35
 msgid "Number of tasks"
-msgstr "タスクの数"
+msgstr "タスク数"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/criterionrequirements/AssignedCriterionRequirementController.java:403
 msgid "At least one HoursGroup is needed"
-msgstr "少なくとも1 HoursGroupが必要とされます"
+msgstr "少なくとも1つの労働グループが必要です"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/users/UserCRUDController.java:243
 #: libreplan-webapp/src/main/webapp/externalcompanies/_editExternalCompany.zul:63
@@ -7310,7 +7303,7 @@ msgstr "ユーザー"
 
 #: libreplan-webapp/src/main/webapp/externalcompanies/_editExternalCompany.zul:71
 msgid "Interacts with applications"
-msgstr "アプリケーションと対話"
+msgstr "アプリケーション通信"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/components/finders/ResourceInExpenseSheetBandboxFinder.java:44
 msgid "Resource name (Resource code)"
@@ -7318,7 +7311,7 @@ msgstr "リソース名（リソースコード）"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/reports/HoursWorkedPerWorkerController.java:295
 msgid "Virtual worker"
-msgstr "仮想ワーカー"
+msgstr "仮想作業者"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/allocation/streches/StretchesFunctionController.java:343
 msgid "Length percentage should be between 0 and 100"
@@ -7326,7 +7319,7 @@ msgstr "長さの割合は、0〜100の間でなければなりません"
 
 #: libreplan-webapp/src/main/webapp/resources/criterions/_edition.zul:50
 msgid "Multiple values per resource"
-msgstr "リソースごとに複数の値"
+msgstr "リソース当たりの並列値"
 
 #: libreplan-webapp/src/main/webapp/templates/_materialAssignmentsBox.zul:60
 #: libreplan-webapp/src/main/webapp/orders/_assignmentsBox.zul:59
@@ -7335,25 +7328,25 @@ msgstr "分割"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/CustomMenuController.java:436
 msgid "Communications"
-msgstr "コミュニケーション"
+msgstr "委託業務"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/reports/TimeLineRequiredMaterialController.java:106
 #: libreplan-webapp/src/main/java/org/libreplan/web/reports/OrderCostsPerResourceController.java:110
 #: libreplan-webapp/src/main/java/org/libreplan/web/reports/SchedulingProgressPerOrderController.java:100
 msgid "please, select a project"
-msgstr "、プロジェクトを選択してください"
+msgstr "プロジェクトを選択してください"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/exceptionDays/CalendarExceptionTypeCRUDController.java:200
 msgid "Cannot remove the predefined calendar exception day \"{0}\""
-msgstr "Cannot remove the predefined calendar exception day \"{0}\""
+msgstr "事前に去っていされた例外日はカレンダーから削除できません \"{0}\""
 
 #: libreplan-webapp/src/main/webapp/common/layout/login.zul:123
 msgid "Supported Chrome, Firefox, Safari and Epiphany browsers"
-msgstr "サポートされているクロムは、Firefox、Safariブラウザとエピファニー"
+msgstr "サポートされているブラウザはChrome、Firefox、Safariのみです"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/dashboard/DashboardController.java:175
 msgid "Task deadline violations"
-msgstr "タスクの締め切り違反"
+msgstr "タスクの締切違反"
 
 #: libreplan-webapp/src/main/webapp/reports/schedulingProgressPerOrderReport.zul:53
 #: libreplan-webapp/src/main/webapp/resources/worker/_localizations.zul:33
@@ -7370,11 +7363,11 @@ msgstr "開始日"
 
 #: libreplan-webapp/src/main/webapp/orders/components/_listOrderElementMaterials.zul:62
 msgid "Add materials"
-msgstr "材料を追加"
+msgstr "材料追加"
 
 #: libreplan-webapp/src/main/webapp/myaccount/monthlyTimesheet.zul:21
 msgid "LibrePlan: Monthly timesheet"
-msgstr "LibrePlan：毎月のタイムシート"
+msgstr "LibrePlan：月間タイムシート"
 
 #: libreplan-webapp/src/main/webapp/planner/_legendLoadChartCompany.zul:34
 msgid "Load 100%"
@@ -7394,15 +7387,15 @@ msgstr "関数"
 #: libreplan-webapp/src/main/webapp/reports/workingArrangementsPerOrderReport.zul:166
 #: libreplan-webapp/src/main/webapp/reports/timeLineMaterialReport.zul:137
 msgid "Format"
-msgstr "FORMAT"
+msgstr "フォーマット"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/order/SaveCommandBuilder.java:932
 msgid "New project version"
-msgstr "新しいプロジェクトバージョン"
+msgstr "新規プロジェクトバージョン"
 
 #: libreplan-business/src/main/java/org/libreplan/business/labels/entities/LabelType.java:110
 msgid "label names must be unique inside a label type"
-msgstr "ラベル名は、ラベル型の内部で一意でなければなりません"
+msgstr "ラベル名はラベルタイプ内で一意でなければなりません"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/templates/TemplatesTreeController.java:79
 #: libreplan-webapp/src/main/java/org/libreplan/web/subcontract/CustomerCommunicationCRUDController.java:207
@@ -7435,27 +7428,27 @@ msgstr "編集"
 
 #: libreplan-webapp/src/main/webapp/orders/_edition.zul:93
 msgid "Responsible"
-msgstr "担当グループ"
+msgstr "権限"
 
 #: libreplan-webapp/src/main/webapp/common/access_forbidden.zul:43
 msgid "Click the following link to return to home page: "
-msgstr "ホームページに戻るには、次のリンクをクリックします。"
+msgstr "ホームページに戻るには、次のリンクをクリックしてください:"
 
 #: libreplan-webapp/src/main/webapp/myaccount/changePassword.zul:71
 msgid "New password"
-msgstr "新規パスワード"
+msgstr "新しいパスワード"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/templates/historicalAssignment/OrderElementHistoricalAssignmentComponent.java:159
 msgid ""
 "The planning of this task is not in the current scenenario.\n"
 "You should change to any of the following scenarios: {0}"
 msgstr ""
-"The planning of this task is not in the current scenenario.\n"
-"You should change to any of the following scenarios: {0}"
+"選択されたタスク計画は現在のシナリオではありません。\n"
+"次のシナリオに変更する必要があります。{0}"
 
 #: libreplan-webapp/src/main/webapp/subcontract/customerCommunications.zul:20
 msgid "LibrePlan: Received From Customers"
-msgstr "LibrePlan：顧客から受け取った"
+msgstr "LibrePlan：顧客からの受取"
 
 #: libreplan-webapp/src/main/webapp/resources/worker/_edition.zul:134
 msgid "New user"
@@ -7464,11 +7457,11 @@ msgstr "ユーザー追加"
 #: libreplan-webapp/src/main/java/org/libreplan/web/templates/TemplatesTree.java:43
 #: libreplan-webapp/src/main/java/org/libreplan/web/templates/TemplatesTree.java:51
 msgid "New Description"
-msgstr "新しい説明"
+msgstr "新規概要"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/resources/criterion/CriterionAdminController.java:114
 msgid "Tree {0} sucessfully flattened"
-msgstr "ツリー{0} sucessfully扁平"
+msgstr "ツリーの平坦化成功{0} "
 
 #: libreplan-webapp/src/main/webapp/materials/materials.zul:84
 #: libreplan-webapp/src/main/webapp/templates/_materialAssignmentsBox.zul:31
@@ -7480,13 +7473,13 @@ msgstr "単価"
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/OrderElementTreeController.java:288
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/OrderCRUDController.java:1293
 msgid "Not enough permissions to create templates"
-msgstr "テンプレートを作成するための十分な権限"
+msgstr "テンプレートを作成する権限がありません"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/ManageOrderElementAdvancesController.java:1328
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/ManageOrderElementAdvancesController.java:1350
 msgid ""
 "Invalid value. Value must be greater than the value of previous progress."
-msgstr "値が無効です。値は、直前の進捗の値より大きくなければなりません。"
+msgstr "値が無効です。値は直前の進捗値より大きくなければなりません。"
 
 #: libreplan-webapp/src/main/webapp/planner/taskpanels/_tabPanelSubcontract.zul:109
 #: libreplan-webapp/src/main/webapp/planner/taskpanels/_tabPanelSubcontract.zul:126
@@ -7505,19 +7498,19 @@ msgstr "プロジェクト・コード"
 
 #: libreplan-webapp/src/main/webapp/planner/reassign.zul:30
 msgid "Reassigning"
-msgstr "再割当て"
+msgstr "再割当"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/allocation/FormBinder.java:643
 msgid "{0} already assigned to resource allocation list"
-msgstr "{0}すでにリソース割り当てリストに割り当てられ"
+msgstr "{0}はすでにリストに割当られています"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/subcontract/FilterCommunicationEnum.java:28
 msgid "Not Reviewed"
-msgstr "レビューではない"
+msgstr "レビューなし"
 
 #: libreplan-webapp/src/main/webapp/labels/_listLabelTypes.zul:22
 msgid "Label Types List"
-msgstr "ラベルの種類一覧"
+msgstr "ラベル一覧"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/components/finders/QualityFormBandboxFinder.java:51
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/components/finders/LabelBandboxFinder.java:52
@@ -7564,17 +7557,17 @@ msgstr "タイプ"
 #: libreplan-webapp/src/main/webapp/subcontract/customerCommunications.zul:43
 #: libreplan-webapp/src/main/webapp/subcontract/subcontractorCommunications.zul:43
 msgid "Refresh"
-msgstr "リフレッシュする"
+msgstr "更新"
 
 #: libreplan-business/src/main/java/org/libreplan/business/costcategories/entities/CostCategory.java:270
 #: libreplan-business/src/main/java/org/libreplan/business/costcategories/entities/CostCategory.java:131
 #: libreplan-business/src/main/java/org/libreplan/business/costcategories/entities/CostCategory.java:140
 msgid "Two Hour Cost of the same type overlap in time"
-msgstr "同じタイプの二時間のコストは時間的に重複"
+msgstr "2つの時間的費用が同時間で重複しています"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/CustomMenuController.java:501
 msgid "Home"
-msgstr "Home"
+msgstr "ホーム"
 
 #: libreplan-webapp/src/main/webapp/common/configuration.zul:105
 msgid "Enable/Disable"
@@ -7582,7 +7575,7 @@ msgstr "有効化/無効化"
 
 #: libreplan-webapp/src/main/webapp/externalcompanies/_editExternalCompany.zul:90
 msgid "Company password"
-msgstr "会社のパスワード"
+msgstr "会社パスワード"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/chart/EarnedValueChartFiller.java:247
 msgid "BCWS"
@@ -7590,11 +7583,11 @@ msgstr "BCWS"
 
 #: libreplan-business/src/main/java/org/libreplan/business/resources/entities/Resource.java:1144
 msgid "criterion satisfaction codes must be unique inside a resource"
-msgstr "基準の満足度コードは、リソース内で一意でなければなりません"
+msgstr "満足度コードの基準はリソース内で一意でなければなりません"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/qualityforms/QualityFormCRUDController.java:253
 msgid "percentage should be between 1 and 100"
-msgstr "割合は、1〜100の間でなければなりません"
+msgstr "割合は1〜100の値でなければなりません"
 
 #: libreplan-webapp/src/main/webapp/subcontract/customerCommunications.zul:57
 #: libreplan-webapp/src/main/webapp/subcontract/subcontractorCommunications.zul:57
@@ -7604,15 +7597,13 @@ msgstr "通信日時"
 #: libreplan-webapp/src/main/java/org/libreplan/web/resources/worker/WorkerCRUDController.java:1009
 #: libreplan-webapp/src/main/java/org/libreplan/web/resources/machine/MachineCRUDController.java:578
 msgid "no"
-msgstr "ノー"
+msgstr "no"
 
 #: libreplan-business/src/main/java/org/libreplan/business/resources/entities/MachineWorkersConfigurationUnit.java:174
 msgid ""
 "All machine worker assignments must have a start date earlier than the end "
 "date"
-msgstr ""
-"すべての機器作業者の割り当ては終了日より開始日が前に設定されている必要があり"
-"ます"
+msgstr "機器作業者の割当は開始日を終了日より前に設定する必要があります"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/components/finders/OrderElementInExpenseSheetBandboxFinder.java:45
 msgid "Task name (Task code)"
@@ -7630,23 +7621,23 @@ msgstr "基準"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/workreports/WorkReportCRUDController.java:624
 msgid "Edit Timesheet"
-msgstr "タイムシートを編集"
+msgstr "タイムシート編集"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/calendars/BaseCalendarEditionController.java:105
 msgid "unl"
-msgstr "UNL"
+msgstr "unl"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/workreports/WorkReportCRUDController.java:1628
 msgid "Please select a worker"
-msgstr "労働者を選択してください"
+msgstr "作業者を選択してください"
 
 #: libreplan-webapp/src/main/webapp/common/configuration.zul:309
 msgid "Test LDAP connection"
-msgstr "LDAP接続をテストする"
+msgstr "LDAPサーバへ接続テスト"
 
 #: libreplan-webapp/src/main/webapp/common/configuration.zul:125
 msgid "Generate code for"
-msgstr "用のコードを生成"
+msgstr "コード生成項目"
 
 #: libreplan-business/src/main/java/org/libreplan/business/labels/entities/Label.java:44
 #: libreplan-business/src/main/java/org/libreplan/business/labels/entities/LabelType.java:50
@@ -7658,20 +7649,20 @@ msgstr "用のコードを生成"
 #: libreplan-business/src/main/java/org/libreplan/business/calendars/entities/CalendarExceptionType.java:99
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderElement.java:519
 msgid "name not specified"
-msgstr "nameが指定されていない"
+msgstr "名前が指定されていません"
 
 #: libreplan-webapp/src/main/webapp/planner/editTask.zul:68
 msgid "Queue-based resource allocation"
-msgstr "キューベースのリソース割り当て"
+msgstr "キューベースのリソース割当"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/scenarios/ScenarioCRUDController.java:225
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/TemplateController.java:120
 msgid "error doing reassignment: {0}"
-msgstr "再割り当てを行うエラー:{0}"
+msgstr "再割当エラー:{0}"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/chart/EarnedValueChartFiller.java:248
 msgid "Actual Cost Work Performed"
-msgstr "実行された実際のコスト作業"
+msgstr "実行済費用"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/tabs/LimitingResourcesTabCreator.java:96
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/tabs/LimitingResourcesTabCreator.java:117
@@ -7680,7 +7671,7 @@ msgstr "キューベースのリソース計画"
 
 #: libreplan-webapp/src/main/webapp/myaccount/monthlyTimesheet.zul:56
 msgid "Previous"
-msgstr "以前の"
+msgstr "前"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/OrderCRUDController.java:140
 msgid "Create project from Template"
@@ -7688,7 +7679,7 @@ msgstr "テンプレートからプロジェクト作成"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/materials/UnitTypeController.java:129
 msgid "Unit Type name cannot be empty"
-msgstr "ユニットタイプ名は空にすることはできません"
+msgstr "ユニットタイプ名は空白にすることはできません"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/OrderElementTreeController.java:436
 msgid ""
@@ -7696,13 +7687,13 @@ msgid ""
 " Code cannot contain chars like '_' \n"
 " and should not be empty"
 msgstr ""
-"Value is not valid.\n"
-" Code cannot contain chars like '_' \n"
-" and should not be empty"
+"有効な値ではありません \n"
+"'_'はコードに使用することはできません \n"
+"空欄も不可です"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/ManageOrderElementAdvancesController.java:1234
 msgid "Values already sent to the customer. Values cannot be changed "
-msgstr "既に顧客に送信される値。値を変更することはできません"
+msgstr "顧客へ送信済みの値です。値を変更することはできません"
 
 #: libreplan-business/src/main/java/org/libreplan/business/users/entities/OrderAuthorization.java:43
 msgid "an authorization type must be set"
@@ -7713,20 +7704,19 @@ msgid ""
 "This project is a subcontracted project. If you delete it, you won't be able "
 "to report progress anymore. Are you sure?"
 msgstr ""
-"このプロジェクトは、委託プロジェクトです。あなたがそれを削除した場合は、もう"
-"進捗状況を報告することができません。本当に？"
+"このプロジェクトは委託プロジェクトです。このプロジェクトを削除すると進捗状況"
+"を報告できませんが問題ありませんか？"
 
 #: libreplan-webapp/src/main/webapp/orders/_listOrderElementHours.zul:194
 msgid "Percentage of estimated budget in money / money spent"
-msgstr "お金/お金の推定予算の割合は、使用済"
+msgstr "費用と推定予算の割合"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/order/SaveCommandBuilder.java:931
 msgid ""
 "Confirm creating a new project version for this scenario and derived. Are "
 "you sure?"
 msgstr ""
-"このシナリオと導出のための新しいプロジェクトバージョンを作成します、問題あり"
-"ませんか？"
+"新しいプロジェクトバージョンのシナリオと派生を作成しますが問題ありませんか？"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/tree/TreeComponent.java:156
 #: libreplan-webapp/src/main/webapp/labels/_editLabelType.zul:72
@@ -7763,7 +7753,7 @@ msgstr "スタックトレース"
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/WorkReportType.java:167
 msgid "timesheet template name is already being used"
-msgstr "タイムシートのテンプレート名は既に使用されている"
+msgstr "タイムシートのテンプレート名は既に使用されています"
 
 #: libreplan-webapp/src/main/webapp/materials/materials.zul:50
 #: libreplan-webapp/src/main/webapp/reports/timeLineMaterialReport.zul:122
@@ -7774,7 +7764,7 @@ msgstr "選択しない"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/CustomMenuController.java:284
 msgid "Queue-based Resources"
-msgstr "キューベースのリソース"
+msgstr "キューベースリソース"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/order/SaveCommandBuilder.java:1103
 msgid "Hours Group at {0}"
@@ -7793,8 +7783,7 @@ msgstr "締切"
 #: libreplan-webapp/src/main/java/org/libreplan/web/resources/worker/CriterionsMachineController.java:241
 #: libreplan-webapp/src/main/java/org/libreplan/web/resources/worker/CriterionsController.java:216
 msgid "Invalid Start Date. New Start Date must be earlier than End Date"
-msgstr ""
-"無効な日付を起動します。新しい開始日は、以前の終了日よりでなければなりません"
+msgstr "開始日が無効です。新しい開始日は終了日より前でなければなりません"
 
 #: libreplan-webapp/src/main/webapp/reports/hoursWorkedPerWorkerReport.zul:115
 msgid "Tasks"
@@ -7802,7 +7791,7 @@ msgstr "タスク"
 
 #: libreplan-webapp/src/main/webapp/reports/timeLineMaterialReport.zul:120
 msgid "Filter by categories or materials"
-msgstr "カテゴリや材料による絞り込み"
+msgstr "カテゴリor材料により絞り込み"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/allocation/streches/StretchesFunctionController.java:389
 msgid "Amount work percentage should be between 0 and 100"
@@ -7810,7 +7799,7 @@ msgstr "仕事の配分は0から100%の間でなければいけません"
 
 #: libreplan-webapp/src/main/webapp/resources/machine/_editMachine.zul:30
 msgid "Machine data"
-msgstr "マシンデータ"
+msgstr "機器データ"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/chart/EarnedValueChartFiller.java:253
 msgid "VAC"
@@ -7820,24 +7809,24 @@ msgstr "VAC"
 #: libreplan-webapp/src/main/webapp/orders/components/_listOrderElementLabels.zul:34
 #: libreplan-webapp/src/main/webapp/orders/components/_listOrderElementLabels.zul:55
 msgid "Label type"
-msgstr "ラベル形式"
+msgstr "ラベルタイプ"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/tabs/AdvancedAllocationTabCreator.java:156
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/tabs/AdvancedAllocationTabCreator.java:236
 msgid "Advanced Allocation"
-msgstr "拡張配分"
+msgstr "拡張割当"
 
 #: libreplan-webapp/src/main/webapp/montecarlo/_montecarlo.zul:93
 msgid "Number of iterations"
-msgstr "反復回数"
+msgstr "繰返し回数"
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/WorkReport.java:262
 msgid "label type:the timesheet have not assigned this label type"
-msgstr "ラベルタイプ：タイムシートは、このラベルの種類を割り当てていない"
+msgstr "ラベルタイプ：ラベルの種類をタイムシートに割り当てていません"
 
 #: libreplan-webapp/src/main/webapp/templates/_editTemplate.zul:42
 msgid "Template Tree"
-msgstr "テンプレート·ツリー"
+msgstr "テンプレートツリー"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/allocation/ResourceAllocationController.java:449
 #: libreplan-webapp/src/main/webapp/resources/machine/_machineConfigurationUnits.zul:35
